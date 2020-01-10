@@ -1,11 +1,15 @@
 package fr.istic.miage.sir.NosqlTP3;
 
+import org.mongodb.morphia.annotations.Embedded;
+
+@Embedded
 public class Address {
 
 	  private String street;
 	  private String city;
 	  private String postCode;
 	  private String country;
+	  
 	public String getStreet() {
 		return street;
 	}

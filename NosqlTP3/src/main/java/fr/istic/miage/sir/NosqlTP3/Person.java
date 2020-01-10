@@ -3,8 +3,10 @@ package fr.istic.miage.sir.NosqlTP3;
 import java.util.List;
 
 import org.bson.types.ObjectId;
+import org.mongodb.morphia.annotations.Entity;
 import org.mongodb.morphia.annotations.Id;
 
+@Entity
 public class Person {
 
     @Id
