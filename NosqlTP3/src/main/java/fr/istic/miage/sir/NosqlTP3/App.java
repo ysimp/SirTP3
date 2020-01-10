@@ -30,6 +30,7 @@ public class App
 		address.setCountry("Some country");
 		//set address
 		p.setAddress(address);
+		
 		// Save the POJO
 		ds.save(p);
 		for (Person e : ds.find(Person.class))
